@@ -1,0 +1,13 @@
+ranger
+
+screen 
+	/etc/screenrc 
+	startup_message on|off
+
+
+ssh service
+	/etc/ssh/sshd_conf, temporarily enable plaintext passwords // PasswordAuthenication yes
+	/etc/ssh/sshd_conf, change port (e.g. to 23) to avoid confusion with Windows SSH server // port 2222
+	ssh-keygen -A to generate all the missing keys.
+	sudo service ssh restart
+
