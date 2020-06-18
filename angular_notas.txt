@@ -1,0 +1,4 @@
+WSL
+	Karma
+		alias launchchrome="\"/mnt/c/Program Files (x86)/Google/Chrome/Application/chrome.exe\""alias launchchrome="\"/mnt/c/Program Files (x86)/Google/Chrome/Application/chrome.exe\""
+		export CHROME_BIN=launchchromeexport CHROME_BIN=launchchrome
