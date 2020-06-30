@@ -22,3 +22,6 @@ GIT
 	Restart the terminal, or source ~/.bashrc, and it works:
 	
 	añadir store para almacenar credenciales: git config --global credential.helper store
+
+oh-my-zsh
+	https://blog.nillsf.com/index.php/2020/02/17/setting-up-wsl2-windows-terminal-and-oh-my-zsh/
