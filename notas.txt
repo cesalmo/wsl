@@ -4,6 +4,14 @@ screen
 	/etc/screenrc 
 	startup_message on|off
 
+	#autostart bashrc o zshrc
+
+	crear dir con mkdir ~/.screen && chmod 700 ~/.screen
+
+	export SCREENDIR=$HOME/.screen
+	if [[ -z "$STY" ]]; then 
+		screen -xRR default
+	fi
 
 ssh service
 	/etc/ssh/sshd_conf, temporarily enable plaintext passwords // PasswordAuthenication yes
