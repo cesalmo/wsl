@@ -35,7 +35,7 @@ oh-my-zsh
 	https://blog.nillsf.com/index.php/2020/02/17/setting-up-wsl2-windows-terminal-and-oh-my-zsh/
 
 nameserver
-
+	0. borrar /etc/resolv.conf porque es un symlink. crearlo de nuevo
 	1. Create a file: /etc/wsl.conf.
 	2. Put the following lines in the file in order to ensure the your DNS changes do not get blown away
 
