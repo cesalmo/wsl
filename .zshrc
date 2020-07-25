@@ -123,5 +123,4 @@ if [[ -z "$STY" ]]; then
    screen -xRR default
 fi
 
-##CODE
-export PATH="/mnt/c/datos/software/VSCode-win32-x64-1.46.0/bin:$PATH"
+
